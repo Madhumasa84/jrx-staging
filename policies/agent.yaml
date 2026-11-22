@@ -1,0 +1,15 @@
+{
+  "mode": "enforce",
+  "audit": {
+    "enabled": true,
+    "path": "audit.jsonl"
+  },
+  "signing": {
+    "private_key_path": "collector.key",
+    "require_signature": true
+  },
+  "thresholds": {
+    "review": 0.5,
+    "strong": 0.9
+  }
+}
